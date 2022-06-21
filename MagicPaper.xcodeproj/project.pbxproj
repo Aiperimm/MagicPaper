@@ -13,6 +13,7 @@
 		97CEC59B286157180050C258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CEC599286157180050C258 /* Main.storyboard */; };
 		97CEC59D2861571A0050C258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97CEC59C2861571A0050C258 /* Assets.xcassets */; };
 		97CEC5A02861571A0050C258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CEC59E2861571A0050C258 /* LaunchScreen.storyboard */; };
+		97CEC5A7286158D50050C258 /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 97CEC5A6286158D50050C258 /* harrypotter.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		97CEC59A286157180050C258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97CEC59C2861571A0050C258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97CEC59F2861571A0050C258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97CEC5A6286158D50050C258 /* harrypotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = harrypotter.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		97CEC592286157180050C258 /* MagicPaper */ = {
 			isa = PBXGroup;
 			children = (
+				97CEC5A6286158D50050C258 /* harrypotter.mp4 */,
 				97CEC593286157180050C258 /* AppDelegate.swift */,
 				97CEC595286157180050C258 /* art.scnassets */,
 				97CEC597286157180050C258 /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			files = (
 				97CEC596286157180050C258 /* art.scnassets in Resources */,
 				97CEC5A02861571A0050C258 /* LaunchScreen.storyboard in Resources */,
+				97CEC5A7286158D50050C258 /* harrypotter.mp4 in Resources */,
 				97CEC59D2861571A0050C258 /* Assets.xcassets in Resources */,
 				97CEC59B286157180050C258 /* Main.storyboard in Resources */,
 			);

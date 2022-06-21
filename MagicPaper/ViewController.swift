@@ -56,6 +56,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         let node =  SCNNode()
         if let imageAnchor = anchor as? ARImageAnchor {
+            
+            let videoNode = SKVideoNode(fileNamed: "harrypotter.mp4")
+            videoNode.play()
+            
+            
+            
          
             let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
             plane.firstMaterial?.diffuse.contents = UIColor(white: 1.0, alpha: 0.5)
